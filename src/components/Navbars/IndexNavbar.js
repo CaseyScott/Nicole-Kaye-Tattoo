@@ -39,21 +39,21 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-react%2F%23%2F"
+                  href="https://www.facebook.com/nicolekayetattoo/photos/?ref=page_internal"
                   target="_blank"
                 >
                   <i className="text-gray-500 fab fa-facebook text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Share</span>
+                  <span className="lg:hidden inline-block ml-2">Facebook</span>
                 </a>
               </li>
               <li className="flex items-center">
                 <a
                   className="hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://github.com/creativetimofficial/notus-react?ref=nr-index-navbar"
+                  href="https://www.instagram.com/nicolekayetattoo/?hl=en"
                   target="_blank"
                 >
-                  <i className="text-gray-500 fab fa-github text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Star</span>
+                  <i className="text-gray-500 fab fa-instagram text-lg leading-lg " />
+                  <span className="lg:hidden inline-block ml-2">Instagram</span>
                 </a>
               </li>
 

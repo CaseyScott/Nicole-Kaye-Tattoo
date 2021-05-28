@@ -1,12 +1,71 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Custom css */
+.welcome {
+  margin-top: -20px !important;
+  padding-bottom: 40px !important;
+  font-size: 45px!important;
+}
+.facebook {
+  background-color: #4267B2 !important;
+}
+.instagram {
+  background-color: #E1306C !important;
+}
+.white-text {
+  color: rgb(235, 230, 245) !important;
+}
+.here-btn {
+  color: #4267B2 !important;
+  font-weight: 600;
+}
+.left-align {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+}
+.bg_text {
+  background-color: #3b3c4db9;
+  border-radius: 10px;
+  margin: 15px;
+}
+.padding-top {
+  padding-top: 50px !important;
+}
+.text-align-center {
+  text-align: center !important;
+}
+.inlarge-image {
+  width: 60% !important;
+  
+}
+.gradient-color {
+   background-image: linear-gradient(to right, rgb(243, 150, 166) , rgba(128, 0, 128, 0.726))
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
 
-/* Document
-   ========================================================================== */
+.bg_image {
+  border: 5px solid hsl(0, 0%, 40%);
+  padding: 5px;
+  background: hsl(0, 0%, 20%);
+  box-shadow:
+      0 0 0 10px hsl(0, 0%, 80%),
+      0 0 0 15px hsl(0, 0%, 90%);
+  /* box-shadow: 0px 0px 150px red; */
+}
+@media screen and (max-width: 600px) {
+  .inlarge-image {
+    width: 100% !important; 
+  }
+  .bg_image {
+    width: 80%;
+    padding-top: 150px;
+  }
+}
 
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
+
+
 
 html {
   line-height: 1.15; /* 1 */
@@ -281,9 +340,18 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -1637,10 +1705,6 @@ video {
   margin-top: 5rem;
 }
 
-.mt-24 {
-  margin-top: 6rem;
-}
-
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -1691,10 +1755,6 @@ video {
 
 .last\:mr-0:last-child {
   margin-right: 0;
-}
-
-.hover\:-mt-4:hover {
-  margin-top: -1rem;
 }
 
 .max-h-860-px {
@@ -1908,10 +1968,6 @@ video {
 
 .pt-2 {
   padding-top: 0.5rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .pl-3 {
@@ -2266,12 +2322,6 @@ video {
   --text-opacity: 1;
   color: #90cdf4;
   color: rgba(144, 205, 244, var(--text-opacity));
-}
-
-.text-blue-400 {
-  --text-opacity: 1;
-  color: #63b3ed;
-  color: rgba(99, 179, 237, var(--text-opacity));
 }
 
 .text-blue-500 {
