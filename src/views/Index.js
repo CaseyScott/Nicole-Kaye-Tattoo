@@ -73,11 +73,11 @@ export default function Index() {
               <br></br>
               <br></br>
               <br></br>
-              <div class="center">
+              <div class="center mobile-btn-column">
                 <a
                   href="https://www.facebook.com/nicolekayetattoo/"
                   target="_blank"
-                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg facebook"
+                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg facebook mobile-btn"
                 >
                   <i className="fab fa-facebook text-lg mr-1"></i>
                   <a>Facebook</a>
@@ -85,7 +85,7 @@ export default function Index() {
                 <a
                   href="https://www.instagram.com/nicolekayetattoo/?hl=en"
                   target="_blank"
-                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg instagram"
+                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg instagram mobile-btn"
                 >
                   <i className="fab fa-instagram text-lg mr-1"></i>
                   <a>Instagram</a>
